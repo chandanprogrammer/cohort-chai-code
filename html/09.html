@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video and Images</title>
+    <style>
+        .video{
+            height: 100vh;
+            /* display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column; */
+        }
+        .video video{
+            width: 400px;
+            /* height: 400px; */
+        }
+    </style>
+</head>
+<body>
+    <section class="video">
+        <!-- <video src="./video-1.mp4" controls autoplay muted></video> -->
+        <video controls width="500px"  poster="./user.jpg">
+            <source src="./video-1.mp4" type="video/mp4">
+            <track src="./track-1.vtt" kind="subtitles" srclang="hn" label="Hindi">
+        </video>
+        <audio controls > /*autoplay*/
+            <source src="./song.mp3" type="audio/mp3">
+            Your browser does not support the audio element.
+        </audio>
+        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/wse2ws3xPq4?si=TGkwH3EwbdjNkufu&amp;start=30" title="YouTube video player" allow="autoplay muted" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/wse2ws3xPq4?si=s9XRdV8n6hkO66X-&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </section>
+</body>
+</html>
