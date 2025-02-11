@@ -1,4 +1,6 @@
 
+[My JavaScript Learning Code](https://github.com/chandanprogrammer/javascript-learning)
+
 ### Thinking
 
 - Pair Programming
@@ -11,7 +13,10 @@
 - Tracking [clockify.me] [wakatime.com]
 
 
+# Task
 
+- framework vs library
+- arial-label
 
 # Instructions for the Pricing Tables Assignment
 
