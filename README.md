@@ -1,17 +1,6 @@
 
 [My JavaScript Learning Code](https://github.com/chandanprogrammer/javascript-learning)
 
-### Thinking
-
-- Pair Programming
-- Tutorial Hell (How to Get Yourself Out of Heels Tutorial)
-- Find pain point
-- aria-label in htmls
-- Ganda article bhi likho par likhna jruri hai yrr 😡(Documentation)
-- For reference, prefere more readable content greater than video content. 
-- github code snippets [gist]
-- Tracking [clockify.me] [wakatime.com]
-
 
 # Task
 
@@ -44,6 +33,14 @@
 
 Good luck and have fun!
 
+### Thinking
+
+- Pair Programming
+- Tutorial Hell (How to Get Yourself Out of Heels Tutorial)
+- Find pain point
+- For reference, prefere more readable content greater than video content. 
+- github code snippets [gist]
+- Tracking [clockify.me] [wakatime.com]
 
 
 # ----------------------------------------
