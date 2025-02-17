@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App</title>
+    <style>
+        body{
+            font-family: cursive;
+            font-size: 18px;
+        }
+        #main {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            margin-top: 5rem;
+        }
+        #input-task{
+            font-size: 18px;
+            padding: 8px 12px;
+        }
+        .add-task-btn{
+            padding: 8px 18px;
+            font-size: 18px;
+            background-color: cadetblue;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        li{
+            list-style: none;
+            font-size: 16px;
+            margin: 4px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="main">
+        <div>
+            <input id="input-task" type="text" placeholder="Enter your task" />
+            <button class="add-task-btn">Add</button>
+        </div>
+        <div>
+            <ul id="task-list">
+                <!-- <li>Market</li> -->
+            </ul>
+        </div>
+    </div>
+</body>
+<script>
+    const inputTask = document.getElementById('input-task');
+    const addTaskButton = document.querySelector('.add-task-btn');
+    const taskList = document.getElementById('task-list'); 
+
+    addTaskButton.addEventListener('click', ()=>{
+        const li = document.createElement('li');
+        const button = document.createElement('button');
+        li.innerText = inputTask.value;
+        button.innerText = "X";
+        button.addEventListener('click', ()=>{
+            li.remove();
+        })
+        li.appendChild(button);
+        taskList.appendChild(li);
+        inputTask.value = "";
+    })
+
+</script>
+</html>
