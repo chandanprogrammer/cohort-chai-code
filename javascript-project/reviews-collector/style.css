@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #c9c6c6;
+    width: 100vw;
+    height: 100vh;
+}
+#main{
+display: flex;
+flex-direction: row;
+padding: 3em 5em;
+position: relative;
+}
+.left-section{
+position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 6em;
+    left: 30%;
+    
+}
+.right-section{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
