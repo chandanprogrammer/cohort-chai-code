@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Carousel</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="main">
+        <h2>Image Carousel</h2>
+        <div class="image-box">
+            <img src="./images/1.jpg" alt="" id="image-scroll">
+            <div class="arrow left-arrow" id="left-arrow">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                    <path
+                        d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.2 288 416 288c17.7 0 32-14.3 32-32s-14.3-32-32-32l-306.7 0L214.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z" />
+                </svg>
+            </div>
+            <div class="arrow right-arrow" id="right-arrow">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                    <path
+                        d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z" />
+                </svg>
+            </div>
+        </div>
+        <div class="dot-box">
+            <div class="dot-circle" id="dot-circle-1" onclick="dotColorChange('dot-circle-1')"></div>
+            <div class="dot-circle" id="dot-circle-2" onclick="dotColorChange('dot-circle-2')"></div>
+            <div class="dot-circle" id="dot-circle-3" onclick="dotColorChange('dot-circle-3')"></div>
+            <div class="dot-circle" id="dot-circle-4" onclick="dotColorChange('dot-circle-4')"></div>
+            <div class="dot-circle" id="dot-circle-5" onclick="dotColorChange('dot-circle-5')"></div>
+        </div>
+        <button id="start-auto-play">Start Auto Play</button>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>

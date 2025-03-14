@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.board-heading {
+}
+.container {
+    display: flex;
+    gap: 20px;
+}
+.board {
+    border: 1px solid;
+    height: 80vh;
+    width: 200px;
+    padding: 10px;
+    border-radius: 8px;
+}
+
