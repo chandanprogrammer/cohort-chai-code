@@ -1,5 +1,5 @@
 {
-  "name": "backend-basic",
+  "name": "backend-auth",
   "version": "1.0.0",
   "description": "A node project for authentication",
   "main": "index.js",
