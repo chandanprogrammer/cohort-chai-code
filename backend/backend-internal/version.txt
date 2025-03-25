@@ -1,0 +1,11 @@
+sem ver
+
+4                   7                   4
+major version       minor version       patch version
+
+breaking changing
+
+^ --> last bit and second last update automatic
+~  -> last bit update
+
+change log
