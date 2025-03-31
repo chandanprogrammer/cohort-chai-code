@@ -13,6 +13,7 @@ app.use(
     origin: process.env.BASE_URL,
     methods: ["GET", "POST", "DELETE", "OPTIONS", "PUT"],
     allowedHeaders: ["Content-Type", "Authorization"],
+    credentials: true,
   })
 );
 
@@ -42,3 +43,6 @@ connectDb()
   .catch((err) => console.log("Database connection Failed"));
 
 // http://127.0.0.1:8000/api/v1/users/register
+
+
+// cors error video ---> https://www.youtube.com/watch?v=ZQXKp-ha89c&ab_channel=Coder%27sGyan
