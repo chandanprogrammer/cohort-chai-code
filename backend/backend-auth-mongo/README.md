@@ -28,6 +28,8 @@ npm packages -
 
 ```
 npm install express
+npm install nodemon
+npm uninstall nodemon
 npm install -D nodemon
 npm install dotenv
 npm install cors
